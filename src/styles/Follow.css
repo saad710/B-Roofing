@@ -1,0 +1,9 @@
+.follow-us {
+  position: relative;
+}
+.circle-image {
+  position: absolute;
+  top: 1.8rem;
+  left: 4rem;
+  padding-left: 28.3rem;
+}

@@ -1,0 +1,6 @@
+.slide-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url("../assets/slider-1.png");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

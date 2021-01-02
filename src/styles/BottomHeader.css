@@ -1,0 +1,6 @@
+.bottom-nav-item:hover {
+  background-color: #ff7314;
+  color: #ffffff !important;
+  margin-top: 2px;
+  border-radius: 5px;
+}

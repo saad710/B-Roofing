@@ -1,0 +1,10 @@
+.topHeader-icon{
+    width: 20px;
+    height: 20px;
+}
+.quote{
+    border-radius: 50;
+    border-color: #FF7314;
+    border-width: 1px solid #FF7314;
+    padding: 0.4rem 0.9rem;
+}

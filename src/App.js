@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import TopHeader from './component/TopHeader';
+import BottomHeader from './component/BottomHeader';
+import TopBanner from './component/TopBanner';
+import WelcomePart from './component/WelcomePart';
+import ExperiencePart from './component/ExperiencePart';
+import WorkContent from './component/WorkContent';
+import Choose from './component/Choose';
+import RoofTypes from './component/RoofTypes';
+import ConcreteTiles from './component/ConcreteTiles';
+import Review from './component/Review';
+import Follow from './component/Follow';
+import NewsLetter from './component/NewsLetter';
+import Contact from './component/Contact';
+import Footer from './component/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopHeader/>
+      <BottomHeader/>
+      <TopBanner/>
+      <WelcomePart/>
+      <ExperiencePart/>
+      <WorkContent/>
+      <Choose/>
+      <RoofTypes/>
+      <ConcreteTiles/>
+      <Review/>
+      <Follow/>
+      <NewsLetter/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

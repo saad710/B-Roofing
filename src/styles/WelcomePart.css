@@ -1,0 +1,65 @@
+/* used media query for stripe Image */
+
+@media only screen and (max-width: 320px){
+    .stripe-img {
+      height: 12rem;
+    }
+    .hammer-img {
+        height: 10rem;
+        width: 6rem;
+    }
+  }
+@media only screen and (min-width: 340px)  and (max-width: 360px){
+    .stripe-img {
+      height: 12rem;
+    }
+    .hammer-img {
+        height: 10rem;
+        width: 8rem;
+    }
+  }
+  @media only screen and (min-width: 370px)  and (max-width: 379px){
+    .stripe-img {
+      height: 11rem;
+    }
+    .hammer-img {
+        height: 12rem;
+        width: 10rem;
+    }
+  }
+  @media only screen and (min-width: 380px) and (max-width: 420px){
+    .stripe-img {
+        height: 13rem;
+      }
+      .hammer-img {
+          height: 13rem;
+          width: 11rem;
+      }
+  }
+  @media only screen and (min-width: 430px) and (max-width: 540px){
+    .stripe-img {
+        height: 15rem;
+      }
+      .hammer-img {
+          height: 15rem;
+          width: 18rem;
+      }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 770px){
+    .stripe-img {
+        height: 13rem;
+      }
+      .hammer-img {
+          height: 12rem;
+          width: 8rem;
+      }
+  }
+  @media only screen and (max-width: 1200px) and (min-width: 800px){
+    .stripe-img {
+        height: 15rem;
+      }
+      .hammer-img {
+          height: 15rem;
+          width: 15rem;
+      }
+  }
